@@ -1,0 +1,23 @@
+.acolor{
+    color: white;
+}
+.acolor:hover{
+    color: #b39a31;
+}
+.DashboardV3-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 0.5rem;
+    padding: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .DashboardV3-projects {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin-top: 0.5rem;
+        padding: 1.1rem;
+    }
+}

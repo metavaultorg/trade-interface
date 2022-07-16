@@ -1,0 +1,251 @@
+.BuyMVX {
+    /*background: #101124;*/
+    min-height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BuyMVX-container {
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+    max-width: 70rem!important;
+}
+
+.BuyMVX-title {
+    font-size: 2.2rem;
+    line-height: 3.097rem;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 1.5484rem;
+    font-family: 'Segoe UI Variable', sans-serif;
+    font-weight: 600;
+    /*font-family: 'Relative Bold';*/
+}
+
+.BuyMVX-description {
+    /* font-size: 1.161rem; */
+    line-height: 1.484rem;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.better-rates-description {
+    margin-top: 1.548rem;
+    letter-spacing: 0;
+}
+
+.BuyMVX-description a {
+    text-decoration: none;
+    position: relative;
+}
+
+.alternative-bridges {
+    margin: 1rem auto;
+    max-width: 728px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alternative-bridges a {
+    display: flex;
+    position: relative;
+}
+
+.alternative-bridges a.Synapse:hover::before,
+.alternative-bridges a.Synapse:focus::before,
+.alternative-bridges a.Multichain:hover::before,
+.alternative-bridges a.Multichain:focus::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.textcolorwhite:hover{
+    color: #fff;
+}
+.textcolorwhite:after{
+    color: #fff;
+}
+.textcolorwhite{
+    color: #fff;
+}
+
+.BuyMVX-purchase-block {
+    background-image: url('../../img/btn_big_purchasemvx.svg');
+    padding-top: 2.1897rem;
+    padding-left: 2.826rem;
+    max-width: 397px;
+    width: 100%;
+    min-height: 120px;
+    margin: 1.548rem auto;
+    margin-bottom: 3rem;
+    display: flex;
+    box-shadow: 0px 9px 12px #29282854;
+    border: 1px solid #4b494a;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+}
+
+.BuyMVX-purchase-block:hover::before {
+    content: " ";
+    position: absolute;
+    background: #bfbfbe41;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.BuyMVX-purchase-block:active::before {
+    content: " ";
+    position: absolute;
+    background: #bfbfbe41;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.BuyMVX-purchase-block-info {
+    margin-left: 2.461rem;
+    text-align: left;
+}
+
+.BuyMVX-purchase-block-info__title {
+    font-size: 1.677rem;
+    line-height: 2.129rem;
+    letter-spacing: 0px;
+    color: #231f20;
+}
+
+.BuyMVX-purchase-block-info__subtitle {
+    color: #231f20;
+    font-size: 1.161rem;
+    line-height: 1.484rem;
+    letter-spacing: 0px;
+}
+
+.BuyMVX-title-section .MVLP-block-section {
+    display: flex;
+    max-width: 416px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 1.548rem;
+}
+
+.MVLP-block-section .MVLP-block {
+    background-image: url('../../img/btn_big_purchasemvx.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+}
+
+.MVLP-block-section .MVLP-block:hover::before {
+    content: " ";
+    position: absolute;
+    background: #bfbfbe41;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.MVLP-block-section .MVLP-block:active::before {
+    content: " ";
+    position: absolute;
+    background: #bfbfbe41;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.MVLP-block .MVLP-block-icon {
+    display: flex;
+}
+
+.MVLP-block .MVLP-block-label {
+    color: #231f20;
+    font-size: 1.161rem;
+    line-height: 1.484rem;
+    margin-left: 0.516rem;
+}
+
+@media (max-width: 900px) {
+    .alternative-bridges {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .alternative-bridges a + a {
+        margin-top: 1.548rem;
+    }
+
+    .BuyMVX-purchase-block {
+        padding-left: 1.859rem;
+    }
+
+    .BuyMVX-title-section .MVLP-block-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MVLP-block-section .MVLP-block + .MVLP-block {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .BuyMVX-container {
+        padding-left: 16px!important;
+        padding-right: 16px!important;
+    }
+
+    .BuyMVX-description {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .BuyMVX-purchase-block {
+        padding-left: 1.5rem;
+    }
+
+    .BuyMVX-purchase-block-info {
+        margin-left: 1.5rem;
+        text-align: left;
+    }
+
+    .BuyMVX-purchase-block-info__title {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .BuyMVX-purchase-block-info__subtitle {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+}
+.marginbottombymvx{
+    margin-bottom: 70px;
+}
+.BuyMVX-container-pdsmallscreen{
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+}
